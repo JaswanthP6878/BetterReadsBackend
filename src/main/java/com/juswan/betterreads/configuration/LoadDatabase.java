@@ -28,7 +28,7 @@ public class LoadDatabase {
         Genre genre = new Genre("Humor");
         Genre genre2 = new Genre("Satire");
         Shelf toRead = new Shelf("toRead");
-        User suresh = new User("suresh", "raina", "sraina", "admin123" );
+        User suresh = new User("suresh", "raina", "sraina", "$2a$10$8cjz47bjbR4Mn8GMg9IZx.vyjhLXR/SKKMSZ9.mP9vpMu0ssKi8GW", "USER" );
         book.setGenres(Set.of(genre, genre2));
         toRead.setBooks(Set.of(book));
         toRead.setUser(suresh);
